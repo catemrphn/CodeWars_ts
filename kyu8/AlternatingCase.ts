@@ -4,6 +4,7 @@
  * i.e. it should not mutate the original string.
  **/
 
+
 export function toAlternatingCase(s: string) {
     let string: any = s.split('').map(function (letter) {
         if (letter.toUpperCase() === letter) {

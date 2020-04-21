@@ -9,6 +9,9 @@ import { toAlternatingCase } from '../kyu8/AlternatingCase';
 describe('8 kyu', function() {
     it('Convert string to number', function() {
         expect(stringToNumber('12435')).to.equal(12435);
+        expect(stringToNumber('605')).to.equal(605);
+        expect(stringToNumber('1405')).to.equal(1405);
+        expect(stringToNumber('-7')).to.equal(-7);
     });
 
     it('Is string uppercase?', function() {
@@ -29,5 +32,4 @@ describe('8 kyu', function() {
         expect(toAlternatingCase('HeLLo WoRLD')).to.equal('hEllO wOrld');
         expect(toAlternatingCase('1a2b3c4d5e')).to.equal('1A2B3C4D5E');
     });
-
 });

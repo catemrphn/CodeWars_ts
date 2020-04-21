@@ -5,5 +5,5 @@
 
 
 export function stringToNumber(str: string): number {
-    return 12435;
+    return parseInt(str);
 }
