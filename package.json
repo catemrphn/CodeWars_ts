@@ -1,0 +1,21 @@
+{
+  "name": "codewars_ts_kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "ts-node": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "mocha": "^7.1.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register ./test/*.spec.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
