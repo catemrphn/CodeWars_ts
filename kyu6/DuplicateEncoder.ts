@@ -19,7 +19,4 @@ export function duplicateEncode(str: string) {
     }).join('');
 }
 
-console.log(duplicateEncode('uRRbFORmHR@GRnRRR'));
-
-
 
